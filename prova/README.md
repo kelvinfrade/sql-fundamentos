@@ -32,6 +32,6 @@ Utilize este conjunto de dados de transações com cartão de crédito. Ele incl
 
 Essa parte não é obrigatória, e não valerá ponto, mas fica como desafio para vocês, conforme conversamos no final da última aula, crie um novo catálogo, schema e tabelas através do SQL para simular um ambiente analítico no modelo star schema (fato e dimensões):
 
-![Fato-Dimensao](https://blog.drbi.com.br/blog/o-que-e-um-esquema-em-estrela/)
+![Fato-Dimensao](https://docs.microsoft.com/pt-br/power-bi/guidance/media/star-schema/star-schema-example2.png)
 
 Altere as querys para ter o mesmo resultado que teve no ambiente transacional, veja que a query fica bem mais simples e bem mais performática, visto que o modelo estrela desnormaliza os dados de forma controlada, o que dispensa múltiplos joins em cascata (como no modelo floco de neve).
